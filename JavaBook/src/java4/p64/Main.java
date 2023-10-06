@@ -4,14 +4,10 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-
 	public static void main(String[] args) {
 		int ball = 0;
 		int strike = 0;
 		int[] num = new int[3];
-//		for(int i=0; i<3; i++) {
-//			num[i] = (int) (Math.random() * 9) +1;
-//		}
 
 		Random random = new Random();
 
@@ -29,7 +25,6 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 
 		while (true) {
-
 			System.out.println("숫자 1~9 중 3개를 입력하세요.");
 			int inp1 = sc.nextInt();
 			int inp2 = sc.nextInt();
