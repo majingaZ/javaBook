@@ -17,7 +17,6 @@ public class Main {
 			num[2] = random.nextInt(9) + 1;
 
 			if (num[0] != num[1] && num[0] != num[2] && num[1] != num[2]) {
-//				System.out.println(num[0] + " " + num[1] + " " + num[2]);
 				break;
 			}
 		}
